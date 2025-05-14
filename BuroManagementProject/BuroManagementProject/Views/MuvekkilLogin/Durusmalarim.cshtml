@@ -1,0 +1,67 @@
+﻿@{
+    ViewBag.Title = "Duruşmalarım";
+    ViewBag.ActiveDurusmalarim = "active";
+}
+
+<div class="container">
+    <main class="main-content">
+        <div id="hearings-content">
+            <div class="hearings-table">
+                <h2 class="section-title">Tüm Duruşmalar</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Dava No</th>
+                            <th>Konu</th>
+                            <th>Tarih</th>
+                            <th>Saat</th>
+                            <th>Mahkeme</th>
+                            <th>Durum</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>#1</td>
+                            <td>Boşanma Davası</td>
+                            <td>10.06.2023</td>
+                            <td>10:00</td>
+                            <td>İstanbul 3. Aile Mahkemesi</td>
+                            <td><span class="status status-pending">Bekliyor</span></td>
+                        </tr>
+                        <tr>
+                            <td>#2</td>
+                            <td>Miras Paylaşımı</td>
+                            <td>05.06.2023</td>
+                            <td>11:30</td>
+                            <td>İstanbul 2. Sulh Hukuk Mahkemesi</td>
+                            <td><span class="status status-active">Devam Ediyor</span></td>
+                        </tr>
+                        <tr>
+                            <td>#3</td>
+                            <td>Boşanma Davası</td>
+                            <td>25.05.2023</td>
+                            <td>14:30</td>
+                            <td>İstanbul 3. Aile Mahkemesi</td>
+                            <td><span class="status status-closed">Tamamlandı</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Duruşma Detayları Kısmı -->
+            <div id="hearing-details" style="display: none;">
+                <h3>Duruşma Detayları</h3>
+                <p><strong>Dava No:</strong> <span id="detail-davaNo"></span></p>
+                <p><strong>Konu:</strong> <span id="detail-konu"></span></p>
+                <p><strong>Tarih:</strong> <span id="detail-date"></span></p>
+                <p><strong>Saat:</strong> <span id="detail-time"></span></p>
+                <p><strong>Mahkeme:</strong> <span id="detail-court"></span></p>
+                <p><strong>Durum:</strong> <span id="detail-status" class="status"></span></p>
+            </div>
+        </div>
+    </main>
+</div>
+
+@section DurusmaDetay {
+    <script src="/js/Muvekkil/durusmalar.js"></script>
+}

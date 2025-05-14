@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Arnolfini\\source\\repos\\BuroManagementProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C71792A6-3631-47E6-B888-381F4EFC1F8B}|BuroManagementProject\\BuroManagementProject.csproj|c:\\users\\arnolfini\\source\\repos\\buromanagementproject\\buromanagementproject\\wwwroot\\js\\muvekkil\\davalar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C71792A6-3631-47E6-B888-381F4EFC1F8B}|BuroManagementProject\\BuroManagementProject.csproj|solutionrelative:buromanagementproject\\wwwroot\\js\\muvekkil\\davalar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C71792A6-3631-47E6-B888-381F4EFC1F8B}|BuroManagementProject\\BuroManagementProject.csproj|c:\\users\\arnolfini\\source\\repos\\buromanagementproject\\buromanagementproject\\views\\muvekkillogin\\davalarim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C71792A6-3631-47E6-B888-381F4EFC1F8B}|BuroManagementProject\\BuroManagementProject.csproj|solutionrelative:buromanagementproject\\views\\muvekkillogin\\davalarim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C71792A6-3631-47E6-B888-381F4EFC1F8B}|BuroManagementProject\\BuroManagementProject.csproj|c:\\users\\arnolfini\\source\\repos\\buromanagementproject\\buromanagementproject\\wwwroot\\js\\muvekkil\\durusmalar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C71792A6-3631-47E6-B888-381F4EFC1F8B}|BuroManagementProject\\BuroManagementProject.csproj|solutionrelative:buromanagementproject\\wwwroot\\js\\muvekkil\\durusmalar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C71792A6-3631-47E6-B888-381F4EFC1F8B}|BuroManagementProject\\BuroManagementProject.csproj|c:\\users\\arnolfini\\source\\repos\\buromanagementproject\\buromanagementproject\\wwwroot\\css\\muvekkil\\muvekkil_davalarim.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C71792A6-3631-47E6-B888-381F4EFC1F8B}|BuroManagementProject\\BuroManagementProject.csproj|solutionrelative:buromanagementproject\\wwwroot\\css\\muvekkil\\muvekkil_davalarim.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Muvekkil_Davalarim.css",
+              "DocumentMoniker": "C:\\Users\\Arnolfini\\source\\repos\\BuroManagementProject\\BuroManagementProject\\wwwroot\\css\\Muvekkil\\Muvekkil_Davalarim.css",
+              "RelativeDocumentMoniker": "BuroManagementProject\\wwwroot\\css\\Muvekkil\\Muvekkil_Davalarim.css",
+              "ToolTip": "C:\\Users\\Arnolfini\\source\\repos\\BuroManagementProject\\BuroManagementProject\\wwwroot\\css\\Muvekkil\\Muvekkil_Davalarim.css",
+              "RelativeToolTip": "BuroManagementProject\\wwwroot\\css\\Muvekkil\\Muvekkil_Davalarim.css",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAAALMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-13T22:26:18.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "durusmalar.js",
+              "DocumentMoniker": "C:\\Users\\Arnolfini\\source\\repos\\BuroManagementProject\\BuroManagementProject\\wwwroot\\js\\Muvekkil\\durusmalar.js",
+              "RelativeDocumentMoniker": "BuroManagementProject\\wwwroot\\js\\Muvekkil\\durusmalar.js",
+              "ToolTip": "C:\\Users\\Arnolfini\\source\\repos\\BuroManagementProject\\BuroManagementProject\\wwwroot\\js\\Muvekkil\\durusmalar.js",
+              "RelativeToolTip": "BuroManagementProject\\wwwroot\\js\\Muvekkil\\durusmalar.js",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-13T22:24:31.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "davalar.js",
+              "DocumentMoniker": "C:\\Users\\Arnolfini\\source\\repos\\BuroManagementProject\\BuroManagementProject\\wwwroot\\js\\Muvekkil\\davalar.js",
+              "RelativeDocumentMoniker": "BuroManagementProject\\wwwroot\\js\\Muvekkil\\davalar.js",
+              "ToolTip": "C:\\Users\\Arnolfini\\source\\repos\\BuroManagementProject\\BuroManagementProject\\wwwroot\\js\\Muvekkil\\davalar.js*",
+              "RelativeToolTip": "BuroManagementProject\\wwwroot\\js\\Muvekkil\\davalar.js*",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-13T22:20:07.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Davalarim.cshtml",
+              "DocumentMoniker": "C:\\Users\\Arnolfini\\source\\repos\\BuroManagementProject\\BuroManagementProject\\Views\\MuvekkilLogin\\Davalarim.cshtml",
+              "RelativeDocumentMoniker": "BuroManagementProject\\Views\\MuvekkilLogin\\Davalarim.cshtml",
+              "ToolTip": "C:\\Users\\Arnolfini\\source\\repos\\BuroManagementProject\\BuroManagementProject\\Views\\MuvekkilLogin\\Davalarim.cshtml",
+              "RelativeToolTip": "BuroManagementProject\\Views\\MuvekkilLogin\\Davalarim.cshtml",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAuwJIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T22:09:23.673Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+﻿@{
+    ViewBag.Title = "Davalarım";
+    ViewBag.ActiveDavalarim = "active";
+}
+
+<div class="container">
+    <main class="main-content">
+        <div id="cases-content">
+            <!-- Dava Listesi Tablosu -->
+            <div class="cases-table">
+                <h2 class="section-title">Davalar Listesi</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Dava No</th>
+                            <th>Konu</th>
+                            <th>Avukat</th>
+                            <th>Başlangıç Tarihi</th>
+                            <th>Durum</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr data-case-id="1">
+                            <td>#2023-1254</td>
+                            <td>Boşanma Davası</td>
+                            <td>Ayşe Demir</td>
+                            <td>15.05.2023</td>
+                            <td><span class="status status-active">Aktif</span></td>
+                        </tr>
+                        <tr data-case-id="2">
+                            <td>#2023-1892</td>
+                            <td>Miras Paylaşım Davası</td>
+                            <td>Mehmet Yılmaz</td>
+                            <td>22.03.2023</td>
+                            <td><span class="status status-pending">Beklemede</span></td>
+                        </tr>
+                        <tr data-case-id="3">
+                            <td>#2022-3421</td>
+                            <td>İş Mahkemesi Davası</td>
+                            <td>Zeynep Kaya</td>
+                            <td>10.11.2022</td>
+                            <td><span class="status status-closed">Sonuçlandı</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Dava Detayları Kısmı (Başlangıçta Gizli) -->
+            <div id="case-details" class="case-detail-container" style="display: none;">
+                <div class="case-header">
+                    <div>
+                        <h2 class="case-title">Dava Konusu</h2>
+                        <div class="case-id">Dava No: #0000</div>
+                    </div>
+                    <div>
+                        <span class="status">Durum</span>
+                    </div>
+                </div>
+
+                <div class="case-info">
+                    <div>
+                        <div class="info-item">
+                            <div class="info-label">Avukat</div>
+                            <div class="info-value">-</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Taraf</div>
+                            <div class="info-value">-</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Dava Tarihi</div>
+                            <div class="info-value">-</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="info-item">
+                            <div class="info-label">Mahkeme</div>
+                            <div class="info-value">-</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Son Güncelleme</div>
+                            <div class="info-value">-</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-label">Açıklama</div>
+                    <div class="info-value">-</div>
+                </div>
+
+                <div class="payment-info">
+                    <div class="payment-item">
+                        <div class="payment-label">Toplam Ücret</div>
+                        <div class="payment-value">-</div>
+                    </div>
+                    <div class="payment-item">
+                        <div class="payment-label">Ödenen</div>
+                        <div class="payment-value">-</div>
+                    </div>
+                    <div class="payment-item">
+                        <div class="payment-label">Kalan</div>
+                        <div class="payment-value">-</div>
+                    </div>
+                </div>
+
+                <div class="progress-steps">
+                    <div class="step completed">
+                        <div class="step-number">1</div>
+                        <div class="step-label">Dava Açma</div>
+                    </div>
+                    <div class="step completed">
+                        <div class="step-number">2</div>
+                        <div class="step-label">Cevap Dilekçesi</div>
+                    </div>
+                    <div class="step active">
+                        <div class="step-number">3</div>
+                        <div class="step-label">Duruşma</div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <div class="step-label">Deliller</div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">5</div>
+                        <div class="step-label">Karar</div>
+                    </div>
+                    <div class="step" data-step="5">
+                        <div class="step-number">5</div>
+                        <div class="step-label">Kesinleşme</div>
+                    </div>
+                    <div class="step" data-step="6">
+                        <div class="step-number">6</div>
+                        <div class="step-label">Karar</div>
+                    </div>
+                    <div class="step" data-step="7">
+                        <div class="step-number">7</div>
+                        <div class="step-label">Temyiz</div>
+                    </div>
+                    <div class="step" data-step="8">
+                        <div class="step-number">8</div>
+                        <div class="step-label">İnfaz</div>
+                    </div>
+                    <div class="step" data-step="9">
+                        <div class="step-number">9</div>
+                        <div class="step-label">Sonuç</div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </main>
+</div>
+@section DavaDetay {
+    <script src="~/js/Muvekkil/davalar.js"></script>
+}
